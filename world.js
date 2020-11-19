@@ -19,7 +19,7 @@ $(document).ready(function() {
     function doSomething() {
 
         if (httpRequest.readyState === XMLHttpRequest.DONE) {
-            if (httpRequest.status === 200) {
+            if (httpRequest.status === 200) { 
                 var response = httpRequest.responseText;
                 res.innerHTML = response; 
             }else {
